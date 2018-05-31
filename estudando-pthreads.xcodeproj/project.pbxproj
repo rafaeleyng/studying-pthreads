@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53505AD020C04386003FC560 /* producer-consumer.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ACF20C04386003FC560 /* producer-consumer.c */; };
+		53505AD720C04B8D003FC560 /* pthread-with-string-arg.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD620C04B8D003FC560 /* pthread-with-string-arg.c */; };
+		53505AD920C05485003FC560 /* hello-world-pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD820C05485003FC560 /* hello-world-pthread.c */; };
+		53505ADB20C05845003FC560 /* race-condition.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADA20C05845003FC560 /* race-condition.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53505ACA20C04386003FC560 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53505ACC20C04386003FC560 /* estudando-pthreads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "estudando-pthreads"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53505ACF20C04386003FC560 /* producer-consumer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "producer-consumer.c"; sourceTree = "<group>"; };
+		53505AD620C04B8D003FC560 /* pthread-with-string-arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "pthread-with-string-arg.c"; sourceTree = "<group>"; };
+		53505AD820C05485003FC560 /* hello-world-pthread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "hello-world-pthread.c"; sourceTree = "<group>"; };
+		53505ADA20C05845003FC560 /* race-condition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "race-condition.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53505AC920C04386003FC560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53505AC320C04386003FC560 = {
+			isa = PBXGroup;
+			children = (
+				53505ACE20C04386003FC560 /* estudando-pthreads */,
+				53505ACD20C04386003FC560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53505ACD20C04386003FC560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53505ACC20C04386003FC560 /* estudando-pthreads */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53505ACE20C04386003FC560 /* estudando-pthreads */ = {
+			isa = PBXGroup;
+			children = (
+				53505ACF20C04386003FC560 /* producer-consumer.c */,
+				53505AD620C04B8D003FC560 /* pthread-with-string-arg.c */,
+				53505AD820C05485003FC560 /* hello-world-pthread.c */,
+				53505ADA20C05845003FC560 /* race-condition.c */,
+			);
+			path = "estudando-pthreads";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53505ACB20C04386003FC560 /* estudando-pthreads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53505AD320C04386003FC560 /* Build configuration list for PBXNativeTarget "estudando-pthreads" */;
+			buildPhases = (
+				53505AC820C04386003FC560 /* Sources */,
+				53505AC920C04386003FC560 /* Frameworks */,
+				53505ACA20C04386003FC560 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "estudando-pthreads";
+			productName = "estudando-pthreads";
+			productReference = 53505ACC20C04386003FC560 /* estudando-pthreads */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53505AC420C04386003FC560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rafael Eyng";
+				TargetAttributes = {
+					53505ACB20C04386003FC560 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 53505AC720C04386003FC560 /* Build configuration list for PBXProject "estudando-pthreads" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53505AC320C04386003FC560;
+			productRefGroup = 53505ACD20C04386003FC560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53505ACB20C04386003FC560 /* estudando-pthreads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53505AC820C04386003FC560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53505AD920C05485003FC560 /* hello-world-pthread.c in Sources */,
+				53505AD020C04386003FC560 /* producer-consumer.c in Sources */,
+				53505AD720C04B8D003FC560 /* pthread-with-string-arg.c in Sources */,
+				53505ADB20C05845003FC560 /* race-condition.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53505AD120C04386003FC560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53505AD220C04386003FC560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53505AD420C04386003FC560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53505AD520C04386003FC560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53505AC720C04386003FC560 /* Build configuration list for PBXProject "estudando-pthreads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53505AD120C04386003FC560 /* Debug */,
+				53505AD220C04386003FC560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53505AD320C04386003FC560 /* Build configuration list for PBXNativeTarget "estudando-pthreads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53505AD420C04386003FC560 /* Debug */,
+				53505AD520C04386003FC560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53505AC420C04386003FC560 /* Project object */;
+}
