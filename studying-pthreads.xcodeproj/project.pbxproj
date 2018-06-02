@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53505AD020C04386003FC560 /* producer-consumer.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ACF20C04386003FC560 /* producer-consumer.c */; };
+		53505AD020C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ACF20C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c */; };
 		53505AD720C04B8D003FC560 /* 02-pthread-with-string-arg.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */; };
 		53505AD920C05485003FC560 /* 01-hello-world-pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD820C05485003FC560 /* 01-hello-world-pthread.c */; };
 		53505ADB20C05845003FC560 /* 03-race-condition.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADA20C05845003FC560 /* 03-race-condition.c */; };
@@ -29,8 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		53505ACC20C04386003FC560 /* estudando-pthreads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "estudando-pthreads"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53505ACF20C04386003FC560 /* producer-consumer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "producer-consumer.c"; sourceTree = "<group>"; };
+		53505ACC20C04386003FC560 /* studying-pthreads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "studying-pthreads"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53505ACF20C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "07-producer-consumer-condition-variables-and-queue.c"; sourceTree = "<group>"; };
 		53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "02-pthread-with-string-arg.c"; sourceTree = "<group>"; };
 		53505AD820C05485003FC560 /* 01-hello-world-pthread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "01-hello-world-pthread.c"; sourceTree = "<group>"; };
 		53505ADA20C05845003FC560 /* 03-race-condition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "03-race-condition.c"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		53505AC320C04386003FC560 = {
 			isa = PBXGroup;
 			children = (
-				53505ACE20C04386003FC560 /* estudando-pthreads */,
+				53505ACE20C04386003FC560 /* studying-pthreads */,
 				53505ACD20C04386003FC560 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,31 +61,31 @@
 		53505ACD20C04386003FC560 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53505ACC20C04386003FC560 /* estudando-pthreads */,
+				53505ACC20C04386003FC560 /* studying-pthreads */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53505ACE20C04386003FC560 /* estudando-pthreads */ = {
+		53505ACE20C04386003FC560 /* studying-pthreads */ = {
 			isa = PBXGroup;
 			children = (
 				53505AD820C05485003FC560 /* 01-hello-world-pthread.c */,
 				53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */,
 				53505ADA20C05845003FC560 /* 03-race-condition.c */,
 				53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */,
-				53505ACF20C04386003FC560 /* producer-consumer.c */,
 				53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */,
 				53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */,
+				53505ACF20C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c */,
 			);
-			path = "estudando-pthreads";
+			path = "studying-pthreads";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53505ACB20C04386003FC560 /* estudando-pthreads */ = {
+		53505ACB20C04386003FC560 /* studying-pthreads */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53505AD320C04386003FC560 /* Build configuration list for PBXNativeTarget "estudando-pthreads" */;
+			buildConfigurationList = 53505AD320C04386003FC560 /* Build configuration list for PBXNativeTarget "studying-pthreads" */;
 			buildPhases = (
 				53505AC820C04386003FC560 /* Sources */,
 				53505AC920C04386003FC560 /* Frameworks */,
@@ -95,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "estudando-pthreads";
+			name = "studying-pthreads";
 			productName = "estudando-pthreads";
-			productReference = 53505ACC20C04386003FC560 /* estudando-pthreads */;
+			productReference = 53505ACC20C04386003FC560 /* studying-pthreads */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53505AC720C04386003FC560 /* Build configuration list for PBXProject "estudando-pthreads" */;
+			buildConfigurationList = 53505AC720C04386003FC560 /* Build configuration list for PBXProject "studying-pthreads" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53505ACB20C04386003FC560 /* estudando-pthreads */,
+				53505ACB20C04386003FC560 /* studying-pthreads */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			files = (
 				53505AD920C05485003FC560 /* 01-hello-world-pthread.c in Sources */,
 				53505ADD20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c in Sources */,
-				53505AD020C04386003FC560 /* producer-consumer.c in Sources */,
+				53505AD020C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c in Sources */,
 				53505ADF20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c in Sources */,
 				53505AE120C0D087003FC560 /* 06-producer-consumer-condition-variables.c in Sources */,
 				53505AD720C04B8D003FC560 /* 02-pthread-with-string-arg.c in Sources */,
@@ -277,7 +277,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53505AC720C04386003FC560 /* Build configuration list for PBXProject "estudando-pthreads" */ = {
+		53505AC720C04386003FC560 /* Build configuration list for PBXProject "studying-pthreads" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53505AD120C04386003FC560 /* Debug */,
@@ -286,7 +286,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53505AD320C04386003FC560 /* Build configuration list for PBXNativeTarget "estudando-pthreads" */ = {
+		53505AD320C04386003FC560 /* Build configuration list for PBXNativeTarget "studying-pthreads" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53505AD420C04386003FC560 /* Debug */,

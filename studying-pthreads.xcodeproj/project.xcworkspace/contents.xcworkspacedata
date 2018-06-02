@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:estudando-pthreads.xcodeproj">
+      location = "self:/Users/rafael/Desktop/estudando-pthreads/studying-pthreads.xcodeproj">
    </FileRef>
 </Workspace>
