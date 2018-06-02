@@ -1,5 +1,5 @@
 //
-//  righi.c
+//  01-hello-world-pthread.c
 //  estudando-pthreads
 //
 //  Created by Rafael Eyng on 5/31/18.

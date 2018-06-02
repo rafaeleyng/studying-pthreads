@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		53505AD020C04386003FC560 /* producer-consumer.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ACF20C04386003FC560 /* producer-consumer.c */; };
-		53505AD720C04B8D003FC560 /* pthread-with-string-arg.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD620C04B8D003FC560 /* pthread-with-string-arg.c */; };
-		53505AD920C05485003FC560 /* hello-world-pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD820C05485003FC560 /* hello-world-pthread.c */; };
-		53505ADB20C05845003FC560 /* race-condition.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADA20C05845003FC560 /* race-condition.c */; };
+		53505AD720C04B8D003FC560 /* 02-pthread-with-string-arg.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */; };
+		53505AD920C05485003FC560 /* 01-hello-world-pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD820C05485003FC560 /* 01-hello-world-pthread.c */; };
+		53505ADB20C05845003FC560 /* 03-race-condition.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADA20C05845003FC560 /* 03-race-condition.c */; };
+		53505ADD20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */; };
+		53505ADF20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */; };
+		53505AE120C0D087003FC560 /* 06-producer-consumer-condition-variables.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +31,12 @@
 /* Begin PBXFileReference section */
 		53505ACC20C04386003FC560 /* estudando-pthreads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "estudando-pthreads"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53505ACF20C04386003FC560 /* producer-consumer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "producer-consumer.c"; sourceTree = "<group>"; };
-		53505AD620C04B8D003FC560 /* pthread-with-string-arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "pthread-with-string-arg.c"; sourceTree = "<group>"; };
-		53505AD820C05485003FC560 /* hello-world-pthread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "hello-world-pthread.c"; sourceTree = "<group>"; };
-		53505ADA20C05845003FC560 /* race-condition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "race-condition.c"; sourceTree = "<group>"; };
+		53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "02-pthread-with-string-arg.c"; sourceTree = "<group>"; };
+		53505AD820C05485003FC560 /* 01-hello-world-pthread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "01-hello-world-pthread.c"; sourceTree = "<group>"; };
+		53505ADA20C05845003FC560 /* 03-race-condition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "03-race-condition.c"; sourceTree = "<group>"; };
+		53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "04-race-condition-handled-with-mutex.c"; sourceTree = "<group>"; };
+		53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "05-deposit-and-withdraw-with-mutex.c"; sourceTree = "<group>"; };
+		53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "06-producer-consumer-condition-variables.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +69,13 @@
 		53505ACE20C04386003FC560 /* estudando-pthreads */ = {
 			isa = PBXGroup;
 			children = (
+				53505AD820C05485003FC560 /* 01-hello-world-pthread.c */,
+				53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */,
+				53505ADA20C05845003FC560 /* 03-race-condition.c */,
+				53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */,
 				53505ACF20C04386003FC560 /* producer-consumer.c */,
-				53505AD620C04B8D003FC560 /* pthread-with-string-arg.c */,
-				53505AD820C05485003FC560 /* hello-world-pthread.c */,
-				53505ADA20C05845003FC560 /* race-condition.c */,
+				53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */,
+				53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */,
 			);
 			path = "estudando-pthreads";
 			sourceTree = "<group>";
@@ -127,10 +136,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53505AD920C05485003FC560 /* hello-world-pthread.c in Sources */,
+				53505AD920C05485003FC560 /* 01-hello-world-pthread.c in Sources */,
+				53505ADD20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c in Sources */,
 				53505AD020C04386003FC560 /* producer-consumer.c in Sources */,
-				53505AD720C04B8D003FC560 /* pthread-with-string-arg.c in Sources */,
-				53505ADB20C05845003FC560 /* race-condition.c in Sources */,
+				53505ADF20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c in Sources */,
+				53505AE120C0D087003FC560 /* 06-producer-consumer-condition-variables.c in Sources */,
+				53505AD720C04B8D003FC560 /* 02-pthread-with-string-arg.c in Sources */,
+				53505ADB20C05845003FC560 /* 03-race-condition.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

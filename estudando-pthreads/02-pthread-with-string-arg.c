@@ -1,5 +1,5 @@
 //
-//  testando.c
+//  02-pthread-with-string-arg.c
 //  estudando-pthreads
 //
 //  Created by Rafael Eyng on 5/31/18.

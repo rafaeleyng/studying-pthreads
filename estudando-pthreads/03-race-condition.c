@@ -1,5 +1,5 @@
 //
-//  mutex.c
+//  03-race-condition.c
 //  estudando-pthreads
 //
 //  Created by Rafael Eyng on 5/31/18.
