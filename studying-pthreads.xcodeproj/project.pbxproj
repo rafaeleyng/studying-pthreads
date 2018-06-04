@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5349CFC820C2F41E003815B2 /* 08-producer-consumer-condition-variables-and-queue-simplified.c in Sources */ = {isa = PBXBuildFile; fileRef = 5349CFC720C2F41E003815B2 /* 08-producer-consumer-condition-variables-and-queue-simplified.c */; };
 		53505AD020C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ACF20C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c */; };
-		53505AD720C04B8D003FC560 /* 02-pthread-with-string-arg.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */; };
+		53505AD720C04B8D003FC560 /* 02-pthread-with-arg.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD620C04B8D003FC560 /* 02-pthread-with-arg.c */; };
 		53505AD920C05485003FC560 /* 01-hello-world-pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AD820C05485003FC560 /* 01-hello-world-pthread.c */; };
 		53505ADB20C05845003FC560 /* 03-race-condition.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADA20C05845003FC560 /* 03-race-condition.c */; };
 		53505ADD20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */; };
 		53505ADF20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */; };
 		53505AE120C0D087003FC560 /* 06-producer-consumer-condition-variables.c in Sources */ = {isa = PBXBuildFile; fileRef = 53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */; };
+		537E8A1E20C4D10000D392E0 /* 09-void-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 537E8A1D20C4D10000D392E0 /* 09-void-pointer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,14 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5349CFC720C2F41E003815B2 /* 08-producer-consumer-condition-variables-and-queue-simplified.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "08-producer-consumer-condition-variables-and-queue-simplified.c"; sourceTree = "<group>"; };
 		53505ACC20C04386003FC560 /* studying-pthreads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "studying-pthreads"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53505ACF20C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "07-producer-consumer-condition-variables-and-queue.c"; sourceTree = "<group>"; };
-		53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "02-pthread-with-string-arg.c"; sourceTree = "<group>"; };
+		53505AD620C04B8D003FC560 /* 02-pthread-with-arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "02-pthread-with-arg.c"; sourceTree = "<group>"; };
 		53505AD820C05485003FC560 /* 01-hello-world-pthread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "01-hello-world-pthread.c"; sourceTree = "<group>"; };
 		53505ADA20C05845003FC560 /* 03-race-condition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "03-race-condition.c"; sourceTree = "<group>"; };
 		53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "04-race-condition-handled-with-mutex.c"; sourceTree = "<group>"; };
 		53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "05-deposit-and-withdraw-with-mutex.c"; sourceTree = "<group>"; };
 		53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "06-producer-consumer-condition-variables.c"; sourceTree = "<group>"; };
+		537E8A1D20C4D10000D392E0 /* 09-void-pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "09-void-pointer.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				53505AD820C05485003FC560 /* 01-hello-world-pthread.c */,
-				53505AD620C04B8D003FC560 /* 02-pthread-with-string-arg.c */,
+				53505AD620C04B8D003FC560 /* 02-pthread-with-arg.c */,
 				53505ADA20C05845003FC560 /* 03-race-condition.c */,
 				53505ADC20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c */,
 				53505ADE20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c */,
 				53505AE020C0D087003FC560 /* 06-producer-consumer-condition-variables.c */,
 				53505ACF20C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c */,
+				5349CFC720C2F41E003815B2 /* 08-producer-consumer-condition-variables-and-queue-simplified.c */,
+				537E8A1D20C4D10000D392E0 /* 09-void-pointer.c */,
 			);
 			path = "studying-pthreads";
 			sourceTree = "<group>";
@@ -137,11 +143,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				53505AD920C05485003FC560 /* 01-hello-world-pthread.c in Sources */,
+				5349CFC820C2F41E003815B2 /* 08-producer-consumer-condition-variables-and-queue-simplified.c in Sources */,
 				53505ADD20C0B4FE003FC560 /* 04-race-condition-handled-with-mutex.c in Sources */,
+				537E8A1E20C4D10000D392E0 /* 09-void-pointer.c in Sources */,
 				53505AD020C04386003FC560 /* 07-producer-consumer-condition-variables-and-queue.c in Sources */,
 				53505ADF20C0B622003FC560 /* 05-deposit-and-withdraw-with-mutex.c in Sources */,
 				53505AE120C0D087003FC560 /* 06-producer-consumer-condition-variables.c in Sources */,
-				53505AD720C04B8D003FC560 /* 02-pthread-with-string-arg.c in Sources */,
+				53505AD720C04B8D003FC560 /* 02-pthread-with-arg.c in Sources */,
 				53505ADB20C05845003FC560 /* 03-race-condition.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
